@@ -1,0 +1,211 @@
+/** SITE STYLES **/
+* {
+    color: #000;
+}
+
+body {
+    color: #222;
+    margin:0;
+}
+
+a { 
+    color:#222;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #222;
+    text-decoration: underline;
+}
+
+a.button:hover {
+    text-decoration: none;
+}
+
+/** SITE NAVIGATION **/
+div.navigation {
+	height: 75px;
+}
+
+div.navigation ul {
+	float: right;
+    margin-right: 25px;
+    margin-top: 0;
+}
+
+@media (max-width: 422px) {
+    div.navigation ul {
+        padding: 0;
+        
+    }
+}
+
+@media (max-width: 400px) {
+    div.navigation ul {
+        margin: 0;
+        
+    }
+}
+
+div.navigation  li {
+	display: inline-block;
+    font-size: 13px;
+	margin: 5px 5px 0 0;
+    padding: 5px 10px 0 0;
+    vertical-align: bottom;
+}
+
+div.navigation a {
+	color: #626065;
+	font-size: 14px;
+}
+
+div.navigation a:hover {
+	color: black;
+}
+/** NAVIGATION ICONS **/
+.fa {
+    cursor: default;
+    font-size: 16px !important;
+    opacity: 0.7;
+    vertical-align: top;
+}
+
+.fa:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+/** NAVIGATION SHARE **/
+.share {
+    background-color: #f2f2f2;
+    cursor: default;
+    padding: 10px 15px;
+
+}
+
+.share:hover {
+    background-color: #E1E1E1;
+    cursor: pointer;
+}
+
+.profile {
+    border-radius: 25px;
+    height: 32px;
+    position: relative;
+    top: 10px;
+    width: 32px;
+}
+
+/** CTA GOOGLE LOGO **/
+.cta {
+    height: 364px;
+    margin-top: 150px;
+}
+
+.cta .logo {
+    text-align: center;
+}
+
+.cta input {
+    border: 1px solid #d9d9d9;
+    display: block;
+    font-size: 16px;
+    height: 30px;
+    margin: 0 auto;
+    padding: 5px;
+    width: 45%;
+}
+
+@media (max-width: 465px) {
+    .cta input {
+        width: 90%;
+        text-align: center;
+    }
+}
+
+/** GOOGLE SEARCH **/
+.search {
+	text-align: center;
+}
+
+.search button {
+    background-color: #f5f5f5;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    color: gray;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 17px 6px;
+    padding: 10px 15px;
+}
+
+.search button:hover {
+	background-color:#f8f8f8;
+	border: 1px solid #c6c6c6;
+    color:#333;
+}
+
+/** FOOTER **/
+div.footer {
+	background-color: #f5f5f5;
+	border-top: 1px solid #e4e4e4;
+    height: 50px;
+    width: 100%;
+    font-size: 10px;
+}
+
+div.footer ul.left {
+	float: left;
+}
+
+@media(max-width: 474px) {
+    div.footer ul.left {
+        padding-left: 5%;
+    }
+}
+
+@media (max-width: 437px) {
+    div.footer ul.left {
+        padding: 0;
+    }
+}
+
+div.footer ul.right{
+	float: right;
+    padding-right: 40px;
+}
+
+@media(max-width: 474px) {
+    div.footer ul.right {
+        padding-right: 5%;
+    }
+}
+
+@media (max-width: 437px) {
+    div.footer ul.right {
+        padding: 0;
+    }
+}
+
+div.footer li {
+    display: inline-block;
+    font-size: 13px;
+    margin: 5px 5px 0 0;
+    padding: 5px 10px 0 0;
+    vertical-align: bottom;
+}
+
+@media (max-width: 437px) {
+    div.footer li:first-child {
+        padding-left: 1%;
+        
+    }
+}
+
+@media (max-width: 437px) {
+    div.footer li:last-child {
+        padding-right: 1%;
+        
+    }
+}
